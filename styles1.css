@@ -1,0 +1,165 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url('wallpaper.png');
+            background-size: cover;
+            background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+}
+
+/* Header styling */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    background-color: skyblue;
+    color: white;
+}
+h1 {
+    font-family: 'Comic Neue', sans-serif;
+    margin: 0;
+}
+h2{
+    font-family: 'Comic Neue', sans-serif;
+    text-decoration: underline;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right img.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-right h1.super-font {
+    font-size: 1.2em;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size:1.3em;
+}
+
+header nav ul li {
+    margin-left: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    font-size:1.3em;
+}
+
+.center {
+    text-align: center;
+}
+
+.super-font.center {
+    font-size: 2em;
+    color: purple;
+    font-family: 'Comic Neue', sans-serif; /* Apply Comic Neue font */
+    margin: 0;
+    text-decoration:color-mix(in hsl shorter hue, color percentage, color percentage)
+}
+
+.full-page-image {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.bordered-image {
+    border: 5px solid #333;
+    padding: 5px;
+}
+.rounded {
+    border-radius: 13px;
+}
+
+.large {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background:rgb(154, 140, 215);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer .social-links a:hover {
+    color: rgb(0, 51, 255);
+}
+
+/* Content styling */
+.content h1 {
+    margin-top: 20px;
+    color: #9e4f4f;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    text-indent: -20px;
+    position: relative;
+}
+
+.content ul li::before {
+    content: "\2022"; /* Bullet point */
+    color: rgb(93, 0, 255);
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

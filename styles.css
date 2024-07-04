@@ -1,0 +1,120 @@
+/* Additional styles for header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: skyblue;
+    color: Purple;
+}
+body{
+    background-image: url('wallpaper.png');
+            background-size: cover;
+            background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1; 
+}
+h1 {
+    font-family: 'Comic Neue', sans-serif; /* Apply Comic Neue font */
+    margin: 0;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.header-left h1 {
+    font-size: 1.5em;
+    margin: 0;
+    font-family: 'Comic Neue', sans-serif; /* Font for header title */
+}
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.title-container .logo {
+    max-height: 50px; /* Adjust maximum height of the logo as needed */
+    margin-right: 10px; /* Adjust margin between logo and title */
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+h2, h3 {
+    font-family: 'Comic Neue', sans-serif;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    font-size:1.3em;
+}
+
+.side-image {
+    float: right;
+    margin: 0 0 10px 10px;
+    max-width: 50%;
+    padding: 5px;
+}
+
+.bordered-image {
+    border: 1px solid #060606;
+    border-radius: 2px;
+}
+
+.bottom-image {
+    display: block;
+    margin: 10px auto 0 auto;
+    max-width: 50%;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgb(157, 101, 101);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff; /* Adjust hover color as needed */
+}
